@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android</title>
     <link rel="stylesheet" href="style/style.css">
-</head>
+   <link rel="stylesheet" href="style/responsiveness.css">
 <body>
     <header>
         <h1>
@@ -33,7 +33,7 @@
 
                 <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
 
-                <img src="images/dan-droids.png" alt="Primeira versão dos DanDroids">
+                <div class="image-container"><img src="images/dan-droids.png" alt="Primeira versão dos DanDroids"></div>
 
                 <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
 
@@ -41,19 +41,20 @@
 
                 <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
-                <img src="images/irina-blok.jpg" alt="Irina Blok, a criadora do android">
+                <div class="image-container"><img src="images/irina-blok.jpg" alt="Irina Blok, a criadora do android"></div>
 
                 <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
 
-                <div id="VideoBox">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=snYl0Vbf7mKKyoBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div id="video-container">
+                    <!--width="560" height="315"-->
+                    <iframe src="https://www.youtube.com/embed/l2UDgpLz20M?si=snYl0Vbf7mKKyoBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 
                 <p>
                     A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.   
                 </p>
                 <aside>
-                    <h2>Quer aprender mais?</h2>
+                    <h2 id="aside-title">Quer aprender mais?</h2>
                     <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
                     <ol>
                         <li>1.5 - Cupcake</li>
