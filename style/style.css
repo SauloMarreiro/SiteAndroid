@@ -1,12 +1,15 @@
-/*Regras, Fontes e Variáveis*/ 
+/*Regras*/ 
 
 @charset "UTF-8";
+
+/*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: 'Idroid';
     src: url(../fonts/idroid.otf);
     font-weight: normal;
 }
+/*Variáveiss*/
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
