@@ -1,7 +1,5 @@
 /*Regras*/ 
-
 @charset "UTF-8";
-
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
@@ -9,7 +7,7 @@
     src: url(../fonts/idroid.otf);
     font-weight: normal;
 }
-/*Variáveiss*/
+/*Variáveis*/
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -24,9 +22,9 @@
     --fonte-especial: 'Idroid', cursive;
 }
 
-/**/
+/*Estilização Geral*/
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     margin: 0;
     padding: 0;
 }
@@ -41,23 +39,17 @@ header{
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
     text-align: center;
-    
     padding: 1em;    
     background-image: linear-gradient(to top, var(--cor5), var(--cor2));
 }
-header h1{
+header h1, header p{
     font-family: var(--fonte-destaque);
     font-weight: normal;
     margin: 0;
 }
-header p{
-    font-family: var(--fonte-destaque);
-    font-weight: normal;
-    margin: 0;
-}
+/*Menu*/
 nav{
-    text-align: left;
-
+    text-align: center;
     margin-top: 1em;
 }
 nav a{
@@ -65,27 +57,26 @@ nav a{
     color: var(--cor-Base);
     text-decoration: none;
     font-size: 1.1em;
-
     padding: .3em;
 }
 nav a:hover{
     color: var(--cor0);
-
     background-color: var(--cor5);
     padding: 0.5em;
     border-radius: 0.2em;
     transition: .3s;
 }
+/*Conteúdo Principal*/
 main{
     text-indent: 1.5em;
     max-width: 60vw;
-    margin:auto;
+    margin: auto;
     border-radius: 0 0 1em 1em;
     padding: .625em;
     box-shadow: 0.2em 0.2em 1.5em var(--cor4);
     background-color: var(--cor-Base);
 }
-main h1,h2,h3{
+main h1, main h2, main h3{
     text-align: center;
     font-family: var(--fonte-especial);
 }
@@ -108,27 +99,17 @@ main a:hover{
 main a::before{
     content: '\1F517';
 }
-aside ol{
-    columns: 2;
-    list-style: '\2714';
-    list-style-position: inside;
-}
-aside h3{
-    color: var(--cor1);
-    margin: -.46em ;
-    border-radius: .3em .3em 0 0;
-    background-color: var(--cor4);
-}
-aside{
-    padding:.5em;
-    background-color: var(--cor1);
-}
-main img{
-    max-width: 100%;
-}
 
-div.vid-container{
+main picture{
     
+    width: 100%;
+}
+main img, .vid-container > iframe{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+div.vid-container{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
@@ -141,10 +122,26 @@ div.vid-container > iframe{
     width: 90%;
     height: 90%;
 }
+/*Periféricos*/
+aside ol{
+    columns: 2;
+    list-style: '\2714';
+    list-style-position: inside;
+}
+aside h3{
+    color: var(--cor1);
+    margin: -.46em ;
+    border-radius: .3em .3em 0 0;
+    background-color: var(--cor4);
+}
+aside{
+    padding: .5em;
+    background-color: var(--cor1);
+}
+/*Rodapé*/
 footer{
     color: var(--cor-Base);
     text-align: center;
-
     margin-top: 2em;
     padding: 1.5em;
     background-color: var(--cor5);
