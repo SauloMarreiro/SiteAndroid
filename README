@@ -1,0 +1,42 @@
+# Curiosidades de Tecnologia
+
+## Descrição
+
+O **Curiosidades de Tecnologia** é um site criado como projeto para praticar os conhecimentos adquiridos durante o módulo 2 do curso de **HTML e CSS** do Curso em Vídeo. O objetivo principal é consolidar os conceitos aprendidos através da criação de uma página com estrutura bem definida, estilização personalizada e responsividade.
+
+## Tecnologias Usadas
+
+- **HTML5**
+- **CSS3** (Com foco em estilo, layout e responsividade)
+
+## Requisitos
+
+- Navegador moderno (Google Chrome, Mozilla Firefox, Safari, etc.)
+- Conexão com a internet para visualização de imagens e vídeos
+
+## Estrutura do Projeto
+
+- **index.html**: Arquivo principal contendo a estrutura do site.
+- **style/style.css**: Arquivo CSS para estilização.
+- **style/responsiveness.css**: Arquivo CSS adicional para ajustes responsivos.
+
+## Objetivos do Projeto
+
+- Aplicar conceitos de estrutura HTML e CSS aprendidos no módulo 2 do curso.
+- Implementar uma navegação intuitiva através de menus e seções.
+- Criar estilizações responsivas para diferentes dispositivos.
+- Desenvolver uma página com uma boa organização de conteúdo e layout.
+
+## Como Usar
+
+1. Clone o repositório ou faça o download dos arquivos.
+2. Abra o arquivo `index.html` em um navegador moderno.
+3. Navegue pelas seções do site utilizando o menu no topo.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para melhorias ou correções.
+
+---
+
+**Projeto desenvolvido por Saulo Marreiro** como prática para o módulo 2 do curso de HTML e CSS do Curso em Vídeo.
